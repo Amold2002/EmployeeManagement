@@ -1,0 +1,15 @@
+//Database query
+
+create database EmployeeManagementProject;
+use EmployeeManagementProject;
+create table employee(empid int,
+empname varchar(20),
+empDateOfJoining varchar(20),
+empYearOfExperience varchar(20),
+empDesignation varchar(20));
+
+desc employee;
+select * from employee;
+
+insert into employee values(1,"ABC","2022-11-29",0,"java developer");
+
